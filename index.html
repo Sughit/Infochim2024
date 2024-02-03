@@ -12,10 +12,13 @@
     <link ref="stylesheet" href="style.css">
     <title>Infochim 2024</title>
 </head>
-
+<!--Pentru a schimba fortat coloarea de fundal-->
+<style type="text/css">
+    body {background: #d8efff !important;}
+</style>
 <body>
     <!--Bara de navigare-->
-    <nav class="navbar navbar-expand-lg bg-gradient navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-gradient navbar-light" style="background-color: #91A8D0;">
         <div class="container-fluid">
             <div class="navbar-brand">
                 Alcooli
@@ -29,16 +32,14 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Acasă</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Informații</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Capitole
+                            Lecții
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Capitol 1</a></li>
-                            <li><a class="dropdown-item" href="#">Capitol 2</a></li>
+                            <li><a class="dropdown-item" href="#introducere">Introducere</a></li>
+                            <li><a class="dropdown-item" href="#">Structura alcoolilor</a></li>
+                            <li><a class="dropdown-item" href="#">Importanță practică și biologică</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Teste</a></li>
                         </ul>
@@ -51,5 +52,36 @@
             </div>
         </div>
       </nav>
+      <!--Introducere-->
+      <div class="my-5 ps-4 mx-3" id="introducere"> 
+        <!--titlu de inceput-->
+        <h2>Ce sunt alcooli?</h2>
+        <p class="pe-3">
+            Alcooli sunt compuși organici care conțin în moleculă grupa <i><b>hidroxil</b></i>, -OH legată de un atom de carbon ce participă numai la formare de legături simple, σ (Sigma).
+        </p>
+
+        <!--Denumirea alcoolilor-->
+        <h2 class="mt-5">Denumirea alcoolilor</h2>
+        <p class="pe-3">
+            Denumirea unui alcool se face prin adăugarea sufixul <i><b>-ol</b></i> la numele alcanului cu același număr de atomi de carbon; de exemplu:
+            <div>
+                <!--trebuie puse poze cu formulele-->
+                <p align="center">
+                    CH3-OH<br>
+                    metanol
+                </p>
+                <p align="center">
+                    CH3-CH2-OH<br>
+                    etanol
+                </p>
+                <p align="center">
+                    CH2-CH2-CH2<br>
+                    | | |<br>
+                    OH  OH  OH<br>
+                    propantriol (glicerina)
+                </p>
+            </div>
+        </p>
+      </div>
 </body>
 </html>
