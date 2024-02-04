@@ -14,11 +14,11 @@
 </head>
 <!--Pentru a schimba fortat coloarea de fundal-->
 <style type="text/css">
-    body {background: #d8efff !important;}
+    body {background: #d8efff !important; padding-top: 40px;}
 </style>
 <body>
     <!--Bara de navigare-->
-    <nav class="navbar navbar-expand-lg bg-gradient navbar-light" style="background-color: #91A8D0;">
+    <nav class="navbar navbar-expand-lg bg-gradient navbar-light fixed-top" style="background-color: #91A8D0;">
         <div class="container-fluid">
             <div class="navbar-brand">
                 Alcooli
@@ -53,35 +53,91 @@
         </div>
       </nav>
       <!--Introducere-->
-      <div class="my-5 ps-4 mx-3" id="introducere"> 
+      <div class="my-5 px-4 mx-3" id="introducere"> 
         <!--titlu de inceput-->
         <h2>Ce sunt alcooli?</h2>
-        <p class="pe-3">
-            Alcooli sunt compuși organici care conțin în moleculă grupa <i><b>hidroxil</b></i>, -OH legată de un atom de carbon ce participă numai la formare de legături simple, σ (Sigma).
+        <p>
+            &emsp;Alcooli sunt compuși organici care conțin în moleculă grupa <i><b>hidroxil</b></i>, -OH legată de un atom de carbon ce participă numai la formare de legături simple, σ (Sigma).
         </p>
 
         <!--Denumirea alcoolilor-->
-        <h2 class="mt-5">Denumirea alcoolilor</h2>
-        <p class="pe-3">
-            Denumirea unui alcool se face prin adăugarea sufixul <i><b>-ol</b></i> la numele alcanului cu același număr de atomi de carbon; de exemplu:
+        <h2 class="mt-4">Denumirea alcoolilor</h2>
+        <p>
+            &emsp;Denumirea unui alcool se face prin adăugarea sufixul <i><b>-ol</b></i> la numele alcanului cu același număr de atomi de carbon; de exemplu:
             <div>
                 <!--trebuie puse poze cu formulele-->
                 <p align="center">
-                    CH3-OH<br>
+                    CH<sub>3</sub>-OH<br>
                     metanol
                 </p>
                 <p align="center">
-                    CH3-CH2-OH<br>
+                    CH<sub>3</sub>-CH<sub>2</sub>-OH<br>
                     etanol
                 </p>
                 <p align="center">
-                    CH2-CH2-CH2<br>
+                    CH<sub>2</sub>-CH-CH<sub>2</sub><br>
                     | | |<br>
                     OH  OH  OH<br>
                     propantriol (glicerina)
                 </p>
             </div>
+            &emsp;Pentru alcooli care conțin 3 sau mai mulți atomi de carbon este necesar să se precizeze poziția grupei -OH; pentru cei care conțin mai multe grupe -OH se precizează numărul lor prin prefixul corespunzător: <i><b>di</b></i>, <i><b>tri</b></i>, etc.<br>
+            &emsp;În unele cazuri se mai folosește și un mod mai vechi de formare a numelui, din cuvântul <i><b>alcool</b></i> urmat de <i><b>numele radicalului hidrocarbonat</b></i>, la care se adaugă sufixul <i><b>-ic</b></i>; de exemplu: metanol sau <i>alcool</i> metil<i><b>ic</b></i>, etanol sau <i>alcool</i> etil<i><b>ic</b></i>.<br>
+            &emsp;Unii alcooli au denumiri uzuale: spirt alb (o soluție de <i><b>etanol</b></i> (C<sub>2</sub>H<sub>6</sub>O) de concentrație 96%), glicol (<i><b>etilenglicol</b></i> (C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>) sau după denumirea IUPAC: <i><b>1,2-etandiol</b></i>), glicerină (<i><b>glicerol</b></i> (C<sub>3</sub>H<sub>8</sub>O<sub>3</sub>)).
         </p>
+
+        <!--Clasificarea alcoolilor-->
+        <h2 class="mt-4">Clasificarea alcoolilor</h2>
+        <p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <!--Titlu element 1-->
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            După natura catenei hidrocarbonate
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            -alcooli <i><b>saturați</b></i> (ex: alcool n-propilic/1-propanol (C<sub>3</sub>H<sub>8</sub>O))<br>
+                            -alcooli <i><b>nesaturați</b></i> (ex: alcool alilic (C<sub>3</sub>H<sub>6</sub>O))<br>
+                            -alcooli <i><b>aromatici</b></i> (ex: alcool benzilic (C<sub>7</sub>H<sub>8</sub>O))
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <!--Titlu element 2-->
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            După numărul de grupări de hidroxil din moleculă
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            -alcooli <i><b>monohidroxilici</b></i> (ex: alcool etilic/etanol (C<sub>2</sub>H<sub>6</sub>O))<br>
+                            -alcooli <i><b>di(poli)hidroxilici</b></i> (ex: glicol/1,2-etandiol (C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>))
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <!--Titlu element 3-->
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            După tipul de atom de carbon de care este legată grupa -OH
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            -alcooli <i><b>primari</b></i> (ex: alcool n-propilic/1-propanol (C<sub>3</sub>H<sub>8</sub>O))<br>
+                            -alcooli <i><b>secundari</b></i> (ex: alcool izopropilic/2-propanol (C<sub>3</sub>H<sub>8</sub>O))<br>
+                            -alcooli <i><b>terțiari</b></i> (ex: alcool terțbutilic (C<sub>4</sub>H<sub>10</sub>O))
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </p>
+
+        <!--Structura alcoolilor-->
       </div>
 </body>
 </html>
