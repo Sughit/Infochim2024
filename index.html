@@ -10,7 +10,7 @@
 
     <!--Our files-->
     <link ref="stylesheet" href="style.css">
-    <title>Infochim 2024</title>
+    <title>Apa</title>
 </head>
 <!--Pentru a schimba fortat coloarea de fundal-->
 <style type="text/css">
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg bg-gradient navbar-light fixed-top" style="background-color: #91A8D0;">
         <div class="container-fluid">
             <div class="navbar-brand">
-                Alcooli
+                Apa
             </div>
             <!--Butonul care face meniul sa apara daca ecranul este prea mic-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,8 +38,9 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#introducere">Introducere</a></li>
-                            <li><a class="dropdown-item" href="#structura">Structura alcoolilor și proprietăți fizice</a></li>
-                            <li><a class="dropdown-item" href="#">Importanță practică și biologică</a></li>
+                            <li><a class="dropdown-item" href="#structura">Proprietăți fizice ale apei</a></li>
+                            <li><a class="dropdown-item" href="#">Reacția apei cu alte substanţe</a></li>
+                            <li><a class="dropdown-item" href="#">Poluarea apei</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Teste</a></li>
                         </ul>
@@ -56,136 +57,33 @@
       <!--Introducere-->
         <div class="my-5 px-4 mx-3" > 
             <!--titlu de inceput-->
-            <h2>Ce sunt alcooli?</h2>
+            <h2>Structura Apei</h2>
             <p>
-                &emsp;Alcooli sunt compuși organici care conțin în moleculă grupa <i><b>hidroxil</b></i>, -OH legată de un atom de carbon ce participă numai la formare de legături simple, σ (Sigma).
+                &emsp;Molecula de apă  H<sub>2</sub>O este formată din doi atomi de hidrogen și unul de oxigen, uniți prin două legături covalente simple.
             </p>
-
-            <!--Denumirea alcoolilor-->
-            <h2 class="mt-4">Denumirea alcoolilor</h2>
-            <p>
-                &emsp;Denumirea unui alcool se face prin adăugarea sufixul <i><b>-ol</b></i> la numele alcanului cu același număr de atomi de carbon; de exemplu:
-                <div>
-                    <!--trebuie puse poze cu formulele-->
-                    <p align="center">
-                        CH<sub>3</sub>-OH<br>
-                        metanol
-                    </p>
-                    <p align="center">
-                        CH<sub>3</sub>-CH<sub>2</sub>-OH<br>
-                        etanol
-                    </p>
-                    <p align="center">
-                        CH<sub>2</sub>-CH-CH<sub>2</sub><br>
-                        | | |<br>
-                        OH  OH  OH<br>
-                        propantriol (glicerina)
-                    </p>
-                </div>
-                &emsp;Pentru alcooli care conțin 3 sau mai mulți atomi de carbon este necesar să se precizeze poziția grupei -OH; pentru cei care conțin mai multe grupe -OH se precizează numărul lor prin prefixul corespunzător: <i><b>di</b></i>, <i><b>tri</b></i>, etc.<br>
-                &emsp;În unele cazuri se mai folosește și un mod mai vechi de formare a numelui, din cuvântul <i><b>alcool</b></i> urmat de <i><b>numele radicalului hidrocarbonat</b></i>, la care se adaugă sufixul <i><b>-ic</b></i>; de exemplu: metanol sau <i>alcool</i> metil<i><b>ic</b></i>, etanol sau <i>alcool</i> etil<i><b>ic</b></i>.<br>
-                &emsp;Unii alcooli au denumiri uzuale: spirt alb (o soluție de <i><b>etanol</b></i> (C<sub>2</sub>H<sub>6</sub>O) de concentrație 96%), glicol (<i><b>etilenglicol</b></i> (C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>) sau după denumirea IUPAC: <i><b>1,2-etandiol</b></i>), glicerină (<i><b>glicerol</b></i> (C<sub>3</sub>H<sub>8</sub>O<sub>3</sub>)).
-            </p>
-
-            <!--Clasificarea alcoolilor-->
-            <h2 class="mt-4">Clasificarea alcoolilor</h2>
-            <p>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <!--Titlu element 1-->
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                După natura catenei hidrocarbonate
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                -alcooli <i><b>saturați</b></i> (ex: alcool n-propilic/1-propanol (C<sub>3</sub>H<sub>8</sub>O))<br>
-                                -alcooli <i><b>nesaturați</b></i> (ex: alcool alilic (C<sub>3</sub>H<sub>6</sub>O))<br>
-                                -alcooli <i><b>aromatici</b></i> (ex: alcool benzilic (C<sub>7</sub>H<sub>8</sub>O))
-                            </div>
-                        </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid rounded-start" src="imagini/moleculApa.png">
                     </div>
-                    <div class="accordion-item">
-                        <!--Titlu element 2-->
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                După numărul de grupări de hidroxil din moleculă
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                -alcooli <i><b>monohidroxilici</b></i> (ex: alcool etilic/etanol (C<sub>2</sub>H<sub>6</sub>O))<br>
-                                -alcooli <i><b>di(poli)hidroxilici</b></i> (ex: glicol/1,2-etandiol (C<sub>2</sub>H<sub>6</sub>O<sub>2</sub>))
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <!--Titlu element 3-->
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                După tipul de atom de carbon de care este legată grupa -OH
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                -alcooli <i><b>primari</b></i> (ex: alcool n-propilic/1-propanol (C<sub>3</sub>H<sub>8</sub>O))<br>
-                                -alcooli <i><b>secundari</b></i> (ex: alcool izopropilic/2-propanol (C<sub>3</sub>H<sub>8</sub>O))<br>
-                                -alcooli <i><b>terțiari</b></i> (ex: alcool terțbutilic (C<sub>4</sub>H<sub>10</sub>O))
-                            </div>
-                        </div>
+                    <div class="col-md-8">
+                        <p class="align-self-center">
+                            r = 0,140 nm
+                            r’ = 0,110nm
+                            α = 104,5°<br>
+                            Din figurile prezentate, reiese că molecula de apă se caracterizează prin:<br>
+                            -structură angulară, cu cele două legături O-H cu lungime egală(0,096nm)<br>
+                            -caracter polar, dar atât de cele două legături covalente polare, cât și de prezența celor două dublete de electroni neparticipanți.
+                        </p>
                     </div>
                 </div>
-            </p>
+            </div>
         </div>
         <hr>
         <h1 class="px-4" id="structura">Lecția 2</h1>
         <!--Structura alcoolilor-->
         <div class="my-5 px-4 mx-3"> 
-            <!--Structura alcoolilor-->
-            <h2>Structura alcoolilor</h2>
-            <p>
-                &emsp;S-a arătat experimental că unghiul dintre legăturile C-O-H este, în majoritatea alcoolilor, de 109°, foarte apropiat de valoarea unghiului dintre legăturile H-O-H care este de 105°.<br>
-                &emsp;Legăturile C-O-H din alcooli sunt <i><b>polare</b></i>: pe atomul de oxigen se găsește o densitate de sarcină negativă, iar pe atomii de H și C apar densități de sarcină pozitivă.<br>
-                &emsp;Această polarizare a moleculei de alcool face ca între <i><b>atomul de hidrogen</b></i> al unei grupe hidroxil, -OH și <i><b>atomul de oxigen</b></i> al altei grupe să se exercite forțe de atracție electrostatică.<br>
-                &emsp;între moleculele de alcool se stabilesc interacții de natură fizică, numite <i><b>legături de hidrogen</b></i>.<br>
-                &emsp;Moleculele de alcool formează legături de hidrogen între ele, cu moleculele de apă, sau cu molecule ale altor compuși care conțin atomi de oxigen, O.
-            </p>
-            <!--Proprietati fizice-->
-            <h2 class="mt-4">Proprietăți fizice</h2>
-            <p>
-                &emsp;Alcoolii inferiori (cu mase molare mici) sunt lichizi; de exemplu: metanol, etanol, glicerină.<br>
-                &emsp;Proprietățile fizice ale alcoolilor inferiori sunt influențate mai mult de prezența în moleculă a grupei -OH, decât a radicalului hidrocarbonat.<br>
-                &emsp;În stare lichidă și solidă alcooli formează asocieri moleculare de tipul (R-OH)<sub>n</sub>, în care <i>n</i> este numărul de molecule asociate prin legături de hidrogen. <i>n</i> se modifică în mod continuu, astfel încât <i>roiuri</i> de molecule asociate sunt unite între ele.<br> 
-                &emsp;Fiind cele mai puternice interacţiuni intermoleculare, legăturile de hidrogen determină puncte de topire şi de fierbere ridicate. Punctele de fierbere ale alcoolilor sunt <i><b>mult mai ridicate</b></i> decât ale alcanilor corespunzători și cresc cu creșterea numărului de grupe -OH din moleculă. Punctele de fierbere ale metanolului, etanolului și glicerinei cresc în ordinea:<br>
-                <div class="text-center">p.f.<sub>metanol</sub> < p.f.<sub>etanol</sub> < p.f.<sub>glicerină</sub></div><br>
-                &emsp;Alcoolii inferiori sunt substanţe <i><b>miscibile</b></i> cu apa, adică se dizolvă în apă în orice proporţie, deoarece între moleculele lor şi moleculele apei se formează legături de hidrogen. Solubilitatea alcoolilor în apă scade cu mărirea catenei şi creşte cu creşterea numărului de grupe hidroxil.
-            </p>
-        </div>
-        <hr>
-        <h1 class="px-4" id="importanta">Lecția 3</h1>
-        <div class="my-5 px-4 mx-3"> 
-            <!--Metanolul introducere-->
-            <h2>I. Metanolul</h2>
-            <p>
-                &emsp;Metanolul sau alcoolul metilic, CH<sub>3</sub>-OH este cunoscut și sub numele de <i><b>alcool de lemn</b></i>, pentru că a fost obținut pentru prima oară din lemn (prin distilare). Există metanol în cantități extrem de mici (la nivel de urme) în fumul de la arderea lemnelor și în vinul nou (contribuind la <i>buchetul</i> acestuia).
-                <h4>Proprietăți fizice</h4>
-                &emsp;Metanolul este un lichid incolor, volatil, cu miros ușor dulceag (foarte asemănător cu al etanolului); este ușor solubil în apă și în alți alcooli: se amestecă perfect cu apa și cu etanolul în orice proporție. De aici, pericolul intoxicației provocate de consumarea lui în loc de etanol, cu care se confundă foarte ușor!
-                <h4>Acțiunea biologică a metanolului</h4>
-                &emsp;Metanolul are acține toxică asupra organismului uman. El nu este o otravă, dar are <i><b>indirect</b></i> o acțiune extrem de nocivă.<br>
-                &emsp;Toxicitatea metanolului se datorează faptului că, după ce este introdus în organism, el este transformat în compuși toxici (aldehida formică, CH<sub>2</sub>O și acidul formic, CH<sub>2</sub>O<sub>2</sub>), sub acțiunea unei enzime (alcool dehidrogenaza) produsă de corpul omenesc. Acești compuși, în cantitate mică, atacă celule ale retinei, provoacă o degenerare a nervului optic, care duce la orbire; în cantitate mai mare provoacă moartea. Doza letală de metanol pentru om este de ~0,15g/kg corp.<br>
-                &emsp;Acidul formic (formica = furnică în limba latină) este unul dintre constituenții veninului injectat de furnici și de unele omizi.
-            </p>
-            <!--Etanolul introducere-->
-            <h2 class="mt-4">II. Etanolul</h2>
-            <p>
-
-            </p>
-            <!--Glicerina introducere-->
-            <h2 class="mt-4">III. Glicerina (glicerolul)</h2>
-            <p>
-                
-            </p>
+            
         </div>
 </body>
 </html>
