@@ -22,9 +22,9 @@ const getRandomWord = () => {
     resetGame();
 }
 const gameOver = (isVictory) => {
-    const modalText = isVictory ? `You found the word:` : 'The correct word was:';
+    const modalText = isVictory ? `Ai descoperit cuvântul:` : 'Cuvântul corect era:';
     gameModal.querySelector("img").src = `imagini/${isVictory ? 'victory' : 'lost'}.jpg`;
-    gameModal.querySelector("h4").innerText = isVictory ? 'Congrats!' : 'Game Over!';
+    gameModal.querySelector("h4").innerText = isVictory ? 'Felicitări!' : 'Ai pierdut!';
     gameModal.querySelector("p").innerHTML = `${modalText} <b>${currentWord}</b>`;
     gameModal.classList.add("show");
 }

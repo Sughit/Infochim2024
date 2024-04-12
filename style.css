@@ -44,7 +44,7 @@ body {
     text-transform: uppercase;
 }
 .game-box .word-display {
-    gap: 10px;
+    gap: 5px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
