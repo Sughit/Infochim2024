@@ -15,29 +15,66 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <!--Bara de navigare-->
+    <nav class="navbar navbar-expand-lg bg-gradient navbar-light fixed-top" style="background-color: #91A8D0;">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <font size = 5>
+                Apa
+            </div>
+            <!--Butonul care face meniul sa apara daca ecranul este prea mic-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Acasă</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lecții
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html"><font size = 5>Introducere</font></a></li>
+                            <li><a class="dropdown-item" href="lectie2.html"><font size = 5>Proprietăți fizice ale apei</font></a></li>
+                            <li><a class="dropdown-item" href="lectie3.html"><font size = 5>Reacția apei cu alte substanţe</font></a></li>
+                            <li><a class="dropdown-item" href="poluare"><font size = 5>Poluarea apei</font></a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="joc.html"><font size = 5>Joc</font></a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </font>
+            </div>
+        </div>
+      </nav>
     <div class="game-modal">
         <div class="content">
             <img src="#" alt="gif">
-            <h4>Ai pierdut!</h4>
-            <p>Cuvântul corect era: <b>rainbow</b></p>
-            <button class="play-again">Joacă din nou</button>
+            <h4><font size = 6>Ai pierdut!</font></h4>
+            <p><font size = 8>Cuvântul corect era: <b>rainbow</b></font></p>
+            <button class="play-again"><font size = 5>Joacă din nou</font></button>
         </div>
     </div>
     <div class="container">
+        <font>
         <div class="guess-box">
             <img src="imagini/water.webp" draggable="false" alt="guess-img">
-            <h1>Ghicește cuvântul</h1>
+            <h1><font size = 6>Ghicește cuvântul</font></h1>
+            <br><br><br>
         </div>
         <div class="game-box">
             <ul class="word-display"></ul>
-            <h4 class="hint-text">Indiciu: <b></b></h4>
+            <h4 class="hint-text"><font size = 6>Indiciu: </font><b></b></h4>
             <h4 class="guesses-text">Încercări greșite: <b></b></h4>
             <div class="keyboard"></div>
         </div>
         <div>
-            <p align=center><a class="btn" style="background: hsl(332, 58%, 39%); color: white;" href="index.html">Înapoi acasă</a></p>
+            <p align=center><br><br><a class="btn" style="background: hsl(332, 58%, 39%); color: white;" href="index.html"><font size = 5>Înapoi acasă</font></a></p>
         </div>
-        
+    </font>
     </div>
     
     

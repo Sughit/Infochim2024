@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: hsl(332, 58%, 39%);
+    background: #5E63BA;
 }
 .tab
 {
@@ -35,6 +35,9 @@ body {
 }
 .guess-box img {
     user-select: none;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
     max-width: 270px;
 }
 .guess-box h1 {
@@ -66,7 +69,7 @@ body {
 }
 .game-box h4 {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -103,7 +106,7 @@ body {
     opacity: 0.6;
 }
 :where(.game-modal, .keyboard) button:hover {
-    background: #8286c9;
+    background: #620b74;
 }
 .game-modal {
     position: fixed;
@@ -143,10 +146,10 @@ body {
     margin-left: -10px;
 }
 .game-modal h4 {
-    font-size: 1.53rem;
+    font-size: 3.5rem;
 }
 .game-modal p {
-    font-size: 1.15rem;
+    font-size: 1.8rem;
     margin: 15px 0 30px;
     font-weight: 500;
 }
