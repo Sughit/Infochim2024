@@ -1,19 +1,19 @@
 const wordList = [
     {
-        word: "guitar",
-        hint: "A musical instrument with strings."
+        word: "apa",
+        hint: "Fără ea nu putem trăi."
     },
     {
-        word: "oxygen",
-        hint: "A colorless, odorless gas essential for life."
+        word: "oxigen",
+        hint: "Pe lângă hidrogen, apa mai conține și..."
     },
     {
-        word: "mountain",
-        hint: "A large natural elevation of the Earth's surface."
+        word: "fosforic",
+        hint: "Oxizii fosforului formează în urma reacției cu apa acid fosforos, respectiv acid..."
     },
     {
-        word: "painting",
-        hint: "An art form using colors on a surface to create images or expression."
+        word: "energic",
+        hint: "Cum reacționează apa cu metalele alcaline?"
     },
     {
         word: "astronomy",

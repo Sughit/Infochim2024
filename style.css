@@ -17,6 +17,7 @@ body {
 {
     tab-size: 4;
 }
+
 #bodyStyle
 {
     background: #d8efff !important; 
@@ -194,4 +195,5 @@ body {
     .game-modal button {
         padding: 10px 18px;
     }
-}
+    
+    }
