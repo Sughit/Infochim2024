@@ -77,6 +77,10 @@ body {
 .game-box h4 b {
     font-weight: 600;
 }
+.game-box font{
+    font-size: 2 rem;
+    font-weight: bold;
+}
 .game-box .guesses-text b {
     color: #ff0000;
 }
@@ -175,6 +179,10 @@ body {
     }
     .game-box h4 {
         font-size: 1rem;
+    }
+    .game-box font{
+        font-size: 1.1rem;
+        font-weight: bold;
     }
     .word-display .letter {
         margin-bottom: 35px;
