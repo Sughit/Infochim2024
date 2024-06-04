@@ -13,6 +13,19 @@ body {
     min-height: 100vh;
     background: #5E63BA;
 }
+.parallax {
+    /* The image used */
+    background-image: url('imagini/fundal.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .tab
 {
     tab-size: 4;
