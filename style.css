@@ -13,6 +13,11 @@ body {
     min-height: 100vh;
     background: #5E63BA;
 }
+.center-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .parallax {
     /* The image used */
     background-image: url('imagini/fundal.jpg');
